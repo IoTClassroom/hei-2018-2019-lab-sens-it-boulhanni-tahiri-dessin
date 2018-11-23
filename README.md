@@ -22,9 +22,9 @@
 
 2. Download and install [dfu-util 0.9](http://dfu-util.sourceforge.net/).
 
-3. Run `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"``
+3. Run `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-4. Run ```brew install dfu-util```
+4. Run `brew install dfu-util`
 
 5. Edit `./sensit-sdk-v2.0.0/sdk/Makefile`:
 
