@@ -35,7 +35,7 @@
         BIN_TOOL  = /Users/antoine/Documents/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-objcopy
         SIZE_TOOL = /Users/antoine/Documents/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-size
         ```
-        
+
 6. In `./sensit-sdk-v2.0.0/sdk/`, run `make temperature`.
 
 7. If there are no warnings, run `make prog`.
@@ -46,7 +46,7 @@ Now check on the Sigfox Backend if you received some messages.
 
 ### Windows
 
-1. Download and install [GNU Arm Embedded Toolchain version 7.2.1](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads). Make sur to tick the "Add path variables" at the end of installation.
+1. Download and install [GNU Arm Embedded Toolchain version 7.2.1](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads). **Make sure to tick the `Add path variables` at the end of installation.**
 
 2. Download and unzip [dfu-util-0.9-win64.zip](http://dfu-util.sourceforge.net/releases/).
 
